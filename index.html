@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horror Central</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: monospace;
+      background-color: black;
+      color: whitesmoke;
+      margin: 0;
+      padding: 0;
+      height: 100vh; /* Full height for the body */
+    }
+    header {
+      background-color: black;
+      color: whitesmoke;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: maroon;
+      overflow: hidden;
+      text-align: center;
+    }
+    nav a {
+      display: inline-block;
+      color: whitesmoke;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: black;
+    }
+
+    /* Centering the message in the middle of the page */
+    .message-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 160px); /* Subtracting header and footer heights */
+      text-align: center;
+    }
+    .message-container h2 {
+      font-size: 24px;
+      color: #ff0000;
+    }
+
+    footer {
+      background-color: black;
+      color: #ff0000;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .footer-nav {
+      background-color: maroon;
+      padding: 10px 0;
+    }
+
+    .footer-nav a {
+      color: whitesmoke;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .footer-nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Upcoming Horror Films</h1>
+    <h2>The horror central for all the fanatics out there!</h2>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="a24.html">A24</a>
+    <a href="blumhouse.html">BLUMHOUSE</a>
+    <a href="neon.html">NEON</a>
+    <a href="shudder.html">SHUDDER</a>
+    <a href="upcoming.html">UPCOMING RELEASES</a>
+  </nav>
+
+  <!-- Centered Message -->
+  <div class="message-container">
+    <h2>Click on a studio production to SEE what HORROR they have up their sleeves!</h2>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-nav">
+      <a href="#">NEWS</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">CONTACT US</a>
+    </div>
+    <p>© 2024 Horror Central. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
